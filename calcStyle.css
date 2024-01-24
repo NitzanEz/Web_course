@@ -1,0 +1,43 @@
+#content {
+    width: 400px;
+    margin: 20px auto;
+    border: 5px solid rgb(200, 160, 208);
+    padding: 2px;
+  }
+  #divScreen {
+    background-color: whitesmoke;
+    border-radius: 8px;
+    height: 50px;
+    margin: 0 0 3px 0;
+    color: rgb(0, 0, 0);
+  }
+
+  #divRow {
+    display: flex;
+  }
+
+  #divRow > div {
+    font-size: 18px;
+    text-align: center;
+    margin: 2px;
+  }
+
+  #divCalc {
+    width: 313px;
+  }
+
+  .myDiv {
+    height: 30px;
+    width: 75px;
+    border-radius: 8px;
+    background-color: darkgray;
+    border-color: transparent;
+    color: white;
+    cursor: pointer;
+  }
+
+  .myDiv:hover {
+    background-color: rgb(47, 70, 80);
+  }
+
+  
